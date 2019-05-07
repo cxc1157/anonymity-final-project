@@ -1,3 +1,5 @@
+This file shows the results of running the J48 model on the original unpadded dataset.
+
 === Run information ===
 
 Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
