@@ -1,0 +1,7 @@
+number of unpadded cells (only special circuits): 4427464
+number of cells including padding (only special circuits): 8570861
+added special circuit overhead from padding cells: 93.58 percent
+
+number of unpadded cells (all circuit types): 108275304
+number of cells including padding (all circuit types): 112420965
+added network overhead from padding cells: 3.83 percent

@@ -1,0 +1,248 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     hs-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.StringToNominal-Rfirst
+Instances:    4264
+Attributes:   7
+              sequence
+              incoming
+              outgoing
+              lifetime
+              class
+              inc_50
+              out_50
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+out_50 = 3: noise (15.0)
+out_50 = 4
+|   inc_50 = 3: HS-RP (2.0)
+|   inc_50 = 4: noise (8.0/1.0)
+|   inc_50 = 5: Client-RP (1.0)
+|   inc_50 = 6: Client-RP (2.0)
+|   inc_50 = 7: noise (0.0)
+|   inc_50 = 8: noise (0.0)
+|   inc_50 = 9: noise (0.0)
+|   inc_50 = 10: noise (0.0)
+|   inc_50 = 11: noise (0.0)
+|   inc_50 = 12: noise (0.0)
+|   inc_50 = 13: noise (0.0)
+|   inc_50 = 14: noise (0.0)
+|   inc_50 = 15: noise (0.0)
+|   inc_50 = 16: noise (0.0)
+|   inc_50 = 17: noise (0.0)
+|   inc_50 = 18: noise (0.0)
+|   inc_50 = 19: noise (0.0)
+|   inc_50 = 20: noise (0.0)
+|   inc_50 = 21: noise (0.0)
+|   inc_50 = 22: noise (0.0)
+|   inc_50 = 23: noise (0.0)
+|   inc_50 = 24: noise (0.0)
+|   inc_50 = 25: noise (0.0)
+|   inc_50 = 26: noise (0.0)
+|   inc_50 = 27: noise (0.0)
+|   inc_50 = 28: noise (0.0)
+|   inc_50 = 29: noise (0.0)
+|   inc_50 = 30: noise (0.0)
+|   inc_50 = 31: noise (0.0)
+|   inc_50 = 32: noise (0.0)
+|   inc_50 = 33: noise (0.0)
+|   inc_50 = 34: noise (0.0)
+|   inc_50 = 35: noise (0.0)
+|   inc_50 = 36: noise (0.0)
+|   inc_50 = 37: noise (0.0)
+|   inc_50 = 38: noise (0.0)
+|   inc_50 = 39: noise (0.0)
+|   inc_50 = 40: noise (0.0)
+|   inc_50 = 41: noise (0.0)
+|   inc_50 = 42: noise (0.0)
+|   inc_50 = 43: noise (0.0)
+|   inc_50 = 44: noise (0.0)
+|   inc_50 = 45: noise (0.0)
+|   inc_50 = 46: noise (394.0)
+out_50 = 5
+|   sequence = -1+1-1+1-1-1+1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1+1+1: noise (98.0)
+|   sequence = -1+1-1+1-1+1-1+1-1+1: noise (300.0)
+|   sequence = -1+1-1+1-1-1+1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1+1+1: noise (5.0)
+|   sequence = -1+1-1+1-1-1-1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1+1-1: noise (12.0)
+|   sequence = -1+1-1+1-1+1-1-1: noise (38.0)
+|   sequence = -1+1-1+1-1+1-1-1+1: noise (2.0)
+|   sequence = -1+1-1+1-1+1-1+1-1: noise (1.0)
+|   sequence = -1+1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1+1-1+1-1: Client-RP (52.0)
+|   sequence = -1+1-1+1-1+1+1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1+1-1+1: noise (0.0)
+out_50 = 6
+|   sequence = -1+1-1+1-1-1+1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1+1+1: noise (71.0)
+|   sequence = -1+1-1+1-1+1-1+1-1+1: noise (66.0)
+|   sequence = -1+1-1+1-1-1+1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1-1+1: noise (1.0)
+|   sequence = -1+1-1+1-1+1-1+1-1-1: noise (9.0)
+|   sequence = -1+1-1+1-1+1-1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1+1-1: noise (2.0)
+|   sequence = -1+1-1+1-1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1+1-1+1-1: Client-RP (90.0)
+|   sequence = -1+1-1+1-1+1+1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1+1-1+1: noise (0.0)
+out_50 = 7
+|   sequence = -1+1-1+1-1-1+1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1+1-1: noise (4.0)
+|   sequence = -1+1-1+1-1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1+1+1: noise (98.0)
+|   sequence = -1+1-1+1-1+1-1+1-1+1: noise (52.0/1.0)
+|   sequence = -1+1-1+1-1-1+1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1-1-1: noise (13.0)
+|   sequence = -1+1-1+1-1+1-1-1+1+1: noise (55.0)
+|   sequence = -1+1-1+1-1-1-1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1+1-1: noise (9.0)
+|   sequence = -1+1-1+1-1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1+1-1+1-1: Client-RP (35.0)
+|   sequence = -1+1-1+1-1+1+1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1+1-1+1: noise (0.0)
+out_50 = 8
+|   sequence = -1+1-1+1-1-1+1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1-1+1+1: noise (1.0)
+|   sequence = -1+1-1+1-1-1-1-1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1+1+1: noise (71.0)
+|   sequence = -1+1-1+1-1+1-1+1-1+1: noise (131.0)
+|   sequence = -1+1-1+1-1-1+1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1-1-1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1-1-1: noise (44.0)
+|   sequence = -1+1-1+1-1+1-1-1+1+1: noise (39.0)
+|   sequence = -1+1-1+1-1-1-1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1+1-1: noise (20.0)
+|   sequence = -1+1-1+1-1+1-1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1-1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1-1: noise (0.0)
+|   sequence = -1+1-1+1-1+1+1-1+1-1: Client-RP (9.0)
+|   sequence = -1+1-1+1-1+1+1-1+1+1: noise (0.0)
+|   sequence = -1+1-1+1-1+1+1-1+1: noise (0.0)
+out_50 = 9: noise (841.0/5.0)
+out_50 = 10: noise (217.0/3.0)
+out_50 = 11: noise (192.0)
+out_50 = 12: noise (163.0/1.0)
+out_50 = 13: noise (212.0/1.0)
+out_50 = 14: noise (118.0/1.0)
+out_50 = 15: noise (108.0)
+out_50 = 16: noise (93.0)
+out_50 = 17: noise (92.0)
+out_50 = 18: noise (46.0)
+out_50 = 19: noise (55.0)
+out_50 = 20: noise (38.0)
+out_50 = 21: noise (22.0)
+out_50 = 22: noise (13.0)
+out_50 = 23: noise (34.0)
+out_50 = 24: noise (10.0)
+out_50 = 25: noise (32.0/1.0)
+out_50 = 26: noise (14.0/2.0)
+out_50 = 27: noise (5.0)
+out_50 = 28: noise (6.0)
+out_50 = 29: noise (4.0)
+out_50 = 31: noise (2.0)
+out_50 = 32: HS-RP (3.0/1.0)
+out_50 = 33: HS-RP (1.0)
+out_50 = 35: HS-RP (4.0/1.0)
+out_50 = 36: HS-RP (1.0)
+out_50 = 37: HS-RP (2.0)
+out_50 = 38: HS-RP (13.0/1.0)
+out_50 = 39: HS-RP (2.0)
+out_50 = 40: HS-RP (11.0)
+out_50 = 41: HS-RP (22.0)
+out_50 = 42: HS-RP (14.0/1.0)
+out_50 = 43: HS-RP (14.0)
+out_50 = 44: HS-RP (86.0)
+out_50 = 45: HS-RP (24.0)
+
+Number of Leaves  : 	188
+
+Size of the tree : 	194
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4239               99.4137 %
+Incorrectly Classified Instances        25                0.5863 %
+Kappa statistic                          0.9657
+Mean absolute error                      0.0067
+Root mean squared error                  0.0633
+Relative absolute error                  5.789  %
+Root relative squared error             26.2681 %
+Total Number of Instances             4264     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.955    0.001    0.979      0.955    0.967      0.966    0.982     0.944     HS-RP
+                 0.940    0.000    1.000      0.940    0.969      0.968    0.980     0.952     Client-RP
+                 0.999    0.053    0.995      0.999    0.997      0.965    0.977     0.995     noise
+Weighted Avg.    0.994    0.048    0.994      0.994    0.994      0.965    0.977     0.991     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+  191    0    9 |    a = HS-RP
+    0  188   12 |    b = Client-RP
+    4    0 3860 |    c = noise
+

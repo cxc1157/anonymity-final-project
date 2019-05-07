@@ -1,0 +1,50 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 2 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     hs-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.StringToNominal-Rfirst
+Instances:    4264
+Attributes:   7
+              sequence
+              incoming
+              outgoing
+              lifetime
+              class
+              inc_50
+              out_50
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 2 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4232               99.2495 %
+Incorrectly Classified Instances        32                0.7505 %
+Kappa statistic                          0.9563
+Mean absolute error                      0.0064
+Root mean squared error                  0.0674
+Relative absolute error                  5.4557 %
+Root relative squared error             27.9343 %
+Total Number of Instances             4264     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.945    0.001    0.979      0.945    0.962      0.960    0.997     0.977     HS-RP
+                 0.940    0.001    0.974      0.940    0.957      0.955    0.999     0.989     Client-RP
+                 0.998    0.058    0.994      0.998    0.996      0.955    0.998     1.000     noise
+Weighted Avg.    0.992    0.052    0.992      0.992    0.992      0.956    0.998     0.998     
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+  189    0   11 |    a = HS-RP
+    0  188   12 |    b = Client-RP
+    4    5 3855 |    c = noise
+
